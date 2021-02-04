@@ -1,0 +1,512 @@
+{
+  "name": "chatbot",
+  "intents": [
+    {
+      "intent": "Actores",
+      "examples": [
+        {
+          "text": "actores"
+        },
+        {
+          "text": "reparto"
+        },
+        {
+          "text": "casting"
+        },
+        {
+          "text": "contames quienes actuaron"
+        },
+        {
+          "text": "actuaciones"
+        },
+        {
+          "text": "interpretes"
+        },
+        {
+          "text": "quienes actuan"
+        }
+      ],
+      "description": "Que actores trabajan en la pelicula"
+    },
+    {
+      "intent": "Autora",
+      "examples": [
+        {
+          "text": "quien escribio harry potter"
+        }
+      ],
+      "description": "Intencion que derivara en en la autora de la saga de Harry Potter"
+    },
+    {
+      "intent": "Saludo",
+      "examples": [
+        {
+          "text": "como va tu vida"
+        },
+        {
+          "text": "que haces querido"
+        },
+        {
+          "text": "buenas"
+        },
+        {
+          "text": "buenos dias"
+        },
+        {
+          "text": "hola robot despreciable"
+        },
+        {
+          "text": "holis"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "como va"
+        },
+        {
+          "text": "que tal"
+        },
+        {
+          "text": "todo en orden"
+        },
+        {
+          "text": "que onda"
+        },
+        {
+          "text": "todo liso"
+        },
+        {
+          "text": "que haces wachin"
+        },
+        {
+          "text": "todo piola"
+        }
+      ],
+      "description": "Incio de la conversacion"
+    },
+    {
+      "intent": "Adios",
+      "examples": [
+        {
+          "text": "tomatela"
+        },
+        {
+          "text": "adios"
+        },
+        {
+          "text": "chau"
+        },
+        {
+          "text": "que te valla bien"
+        },
+        {
+          "text": "cerrate"
+        },
+        {
+          "text": "andate"
+        },
+        {
+          "text": "vete"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "adiosito"
+        },
+        {
+          "text": "no quiero verte mas"
+        },
+        {
+          "text": "callate"
+        }
+      ],
+      "description": "Despedida del chatbot"
+    },
+    {
+      "intent": "Personajes",
+      "examples": [
+        {
+          "text": "decime los personajes"
+        },
+        {
+          "text": "quiero saber que personajes estan"
+        },
+        {
+          "text": "dame la lista de personajes"
+        },
+        {
+          "text": "personajes"
+        },
+        {
+          "text": "cuales son los personajes"
+        },
+        {
+          "text": "que personajes estan enla pelicula"
+        },
+        {
+          "text": "personajes de la peli"
+        }
+      ],
+      "description": "Personajes que aparecen en la pelicula"
+    },
+    {
+      "intent": "Aprobar",
+      "examples": [
+        {
+          "text": "Amandi"
+        },
+        {
+          "text": "chatbot"
+        },
+        {
+          "text": "aprobar"
+        },
+        {
+          "text": "optativa"
+        },
+        {
+          "text": "se puede aprobar esta optativa"
+        },
+        {
+          "text": "Campos"
+        }
+      ],
+      "description": "una posible conversación sobre la optativa"
+    },
+    {
+      "intent": "Ubicaciones",
+      "examples": [
+        {
+          "text": "ubicaciones"
+        },
+        {
+          "text": "lugares"
+        },
+        {
+          "text": "donde trancurre la pelicula"
+        },
+        {
+          "text": "por donde se desplazan los personajes"
+        }
+      ],
+      "description": "Lugares o ubicaciones que se muestran en la pelicula"
+    },
+    {
+      "intent": "Sinopsis-Trama",
+      "examples": [
+        {
+          "text": "comentame algo de la peli"
+        },
+        {
+          "text": "dame un resumen de la pelicula"
+        },
+        {
+          "text": "sinopsis"
+        },
+        {
+          "text": "trama"
+        },
+        {
+          "text": "dame info"
+        },
+        {
+          "text": "info"
+        },
+        {
+          "text": "resumimela"
+        },
+        {
+          "text": "breve relato"
+        },
+        {
+          "text": "quiero poco informacion"
+        },
+        {
+          "text": "informacion de la pelicula"
+        },
+        {
+          "text": "introducime en tema"
+        },
+        {
+          "text": "decime de que trata la peli"
+        }
+      ],
+      "description": "De que trata la pelicula"
+    },
+    {
+      "intent": "DatosPelicula",
+      "examples": [
+        {
+          "text": "cuanto dura"
+        },
+        {
+          "text": "que me podes decir de la peli"
+        }
+      ],
+      "description": "Duracion, dia de estreno, si tiene version extendiada, criticas, aceptacion del publico, etc, etc, etc"
+    },
+    {
+      "intent": "RelacionConLibro",
+      "examples": [
+        {
+          "text": "el libro y la pelicula se parecen"
+        },
+        {
+          "text": "que tal en relacion al libro"
+        },
+        {
+          "text": "es igual al libro"
+        },
+        {
+          "text": "transmite lo del libro"
+        },
+        {
+          "text": "se refleja lo que se lee en el libro"
+        },
+        {
+          "text": "coincide con el libro"
+        },
+        {
+          "text": "se parece al libro"
+        },
+        {
+          "text": "cuanto del libro se corresponde con la pelicula"
+        }
+      ],
+      "description": "Cuanto de fiel es la pelicula con el libro, REVISAR"
+    },
+    {
+      "intent": "Criaturas",
+      "examples": [
+        {
+          "text": "seres de la mitologia"
+        },
+        {
+          "text": "bestias"
+        },
+        {
+          "text": "seres"
+        },
+        {
+          "text": "criaturas fantasticas"
+        },
+        {
+          "text": "que animales se muestran en la pelicula"
+        },
+        {
+          "text": "que animales se ven"
+        },
+        {
+          "text": "animales"
+        },
+        {
+          "text": "criaturas"
+        },
+        {
+          "text": "bichos"
+        }
+      ],
+      "description": "Criaturas, animales de la palicula"
+    }
+  ],
+  "entities": [],
+  "language": "es",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "text": {
+          "values": [
+            "No le he entendido. Intente reformular la consulta.",
+            "¿Puede expresarse con otras palabras? No le he entendido.",
+            "No entendí el significado.",
+            "()Quizás te expresaste mal, probá a preguntarme de nuevo",
+            "()Tu pregunta es muy confusa para mi, trata de ser mas claro",
+            "()Flaco/a sos tonto/a escribí mejor loco/a",
+            "()Me duelen los circuitos, reformulá tu pregunta"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_1_1544656723161"
+    },
+    {
+      "type": "standard",
+      "title": "Aprobar",
+      "output": {
+        "text": {
+          "values": [
+            "Si por su puesto, ya me crearon entonces saben del tema ",
+            "Aprendieron a usar bien la herramienta ",
+            "Estaria bueno que me creen a un amigo "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Aprobar",
+      "dialog_node": "node_4_1542820623519",
+      "previous_sibling": "node_2_1542816739290"
+    },
+    {
+      "type": "standard",
+      "title": "Actores",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Actores",
+      "dialog_node": "node_1_1542816710667",
+      "previous_sibling": "node_1_1542809357718"
+    },
+    {
+      "type": "standard",
+      "title": "Saludo-inicio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todo bien"
+              },
+              {
+                "text": "bien aca ando"
+              },
+              {
+                "text": "Yo tranquilo, listo para que me pregutes"
+              },
+              {
+                "text": "Podemos hablar de como estoy, pero en realidad se datos interesante de la peli de Harry Potter"
+              },
+              {
+                "text": "Hola, espre tu pregunta"
+              },
+              {
+                "text": "Genio/a no me vengas con bolucedes, pregunta de Harry Potter"
+              },
+              {
+                "text": "Si queres saber algo de Harry Potter preguntame, si no te podes ir"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Saludo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1542810790556",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "Relacion con el libro",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#RelacionConLibro",
+      "dialog_node": "node_2_1542816739290",
+      "previous_sibling": "node_1_1542816710667"
+    },
+    {
+      "type": "standard",
+      "title": "Adios",
+      "output": {
+        "text": {
+          "values": [
+            "Nos vemos, cuidate!",
+            "Suerte",
+            "Hasta luego",
+            "Te veo la proxima",
+            "Espero haber sido de ayuda, abrazo",
+            "Chau, chau"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Adios",
+      "dialog_node": "node_1_1544656723161",
+      "previous_sibling": "node_4_1542820623519"
+    },
+    {
+      "type": "standard",
+      "title": "Personajes",
+      "output": {
+        "text": {
+          "values": [
+            "Los Personajes que aparecen en la pelicula son los siguientes:                                                                                                                                                  Harry Potter\nHermione Granger\nRonald Weasley\nAlbus Dumbledore\nMinerva McGonagall\nRubeus Hagrid\nDraco Malfoy\nArgus Filch\nSeverus Snape\nMolly Weasley\nGinny Weasley\nPercy Weasley\nFred Weasley\nGeorge Weasley\nNeville Longbottom\nPetunia Dursley                                                                                                                             Dudley Dursley\nVernon Dursley\nTom\nQuirinus Quirrell\nGriphook\nSr. Ollivander\nLily Potter\nVincent Crabbe\nGregory Goyle\nSeamus Finnigan\nDean Thomas\nSusan Bones\nNick Casi Decapitado\nBarón Sanguinario\nFraile Gordo\nDama Gris\nMadame Hooch\nFilius Flitwick\nLee Jordan\nOliver Wood\nSra. Gorda\nAngelina Johnson\nAlicia Spinnet\nKatie Bell\nAdrian Pucey\nTerrence Higgs\nJames Potter"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Personajes",
+      "dialog_node": "node_1_1542809357718",
+      "previous_sibling": "node_3_1542816787819"
+    },
+    {
+      "type": "standard",
+      "title": "Sinopsis",
+      "output": {
+        "text": {
+          "values": [
+            "Harry Potter y la piedra filosofal es una película de fantasía y aventuras basada en el libro homónimo de J. K. Rowling, dirigida por el cineasta Chris Columbus y estrenada en 2001. Se convirtió en el primer lanzamiento en la serie cinematográfica de Harry Potter. La historia sigue a Harry Potter, un niño que al cumplir once años descubre que es un mago, por lo cual es enviado al Colegio Hogwarts de Magia y Hechicería para comenzar su entrenamiento como tal.",
+            "Harry Potter es un niño huérfano que vive con sus únicos parientes vivos, la familia Dursley, en un barrio residencial inglés. En su cumpleaños número 11, Harry es visitado por un misterioso individuo llamado Rubeus Hagrid, quien le revela que realmente él es un mago bastante popular en el mundo mágico por haber sobrevivido al ataque mortal de Lord Voldemort cuando sólo tenía un año de edad. Tras haber asesinado a sus padres (James y Lily Potter), Voldemort intentó atacar a Harry pero no consiguió matarlo, dejándole solamente una cicatriz en forma de rayo sobre su frente. Sabiendo esto, Hagrid acompaña a Harry para comprar lo necesario con tal de comenzar su formación en el Colegio Hogwarts de Magia y Hechicería.",
+            "Harry Potter asiste a Hogwarts para empezar a aprender conjuros y conocer a nuevos amigos; en el proceso, también inicia sus rivalidades con otros estudiantes y parte del personal del colegio. Durante su estancia, Harry Potter descubre que la institución alberga un misterioso objeto en sus dominios el cual es conocido como la piedra filosofal. Este poderoso elemento es buscado discretamente por Voldemort, a quien la comunidad mágica daba por muerto tras haberle rebotado el ataque mortal dirigido contra Harry Potter. Contrario a dichas creencias, su espíritu desea afanosamente encontrar la piedra para recuperar sus antiguas habilidades de brujo. Además, la piedra filosofal es conocida por otorgar igualmente la inmortalidad a su poseedor."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Sinopsis-Trama",
+      "dialog_node": "node_3_1542816787819",
+      "previous_sibling": "node_2_1542810790556"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "text": {
+          "values": [
+            "Bienvenido a esta maravillosa aventura por el mundo magico de Harry Potter. Te podre ayudar a saber mas acerca de la primer pelicula de Harry potter, el niño mago. Quedarás encantado"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    }
+  ],
+  "workspace_id": "d2164aef-baa5-4429-9e7f-e09b13bd792b",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
